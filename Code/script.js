@@ -11,7 +11,7 @@ function controllo(lung) {
 
     let seq = [];
     seq = fibonacci(l, seq);
-    par.innerHTML = ("La tua sequenza: " + seq.join(','));
+    par.innerHTML = "La tua sequenza: " + seq.join(',');
     f.appendChild(par);
 }
 
